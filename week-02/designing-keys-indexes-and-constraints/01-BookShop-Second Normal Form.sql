@@ -1,0 +1,6 @@
+CREATE TABLE BookShop_AuthorDetails 
+AS 
+(SELECT DISTINCT AUTHOR_ID, AUTHOR_NAME, AUTHOR_BIO FROM BookShop) 
+WITH DATA;
+
+SELECT * FROM BookShop_AuthorDetails;
