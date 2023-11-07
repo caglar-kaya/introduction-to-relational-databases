@@ -1,0 +1,15 @@
+create database sakila;
+
+use sakila;
+
+source sakila_mysql_dump.sql;
+
+SHOW FULL TABLES WHERE table_type = 'BASE TABLE';
+
+DESCRIBE staff;
+
+SELECT * FROM staff;
+
+\q
+
+cat sakila_staff_mysql_dump.sql
