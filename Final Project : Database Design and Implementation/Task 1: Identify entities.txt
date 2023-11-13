@@ -1,0 +1,7 @@
+Entitties
+
+1. Staff
+2. Sales Outlet
+3. Sales Transaction
+4. Customer
+5. Product
